@@ -1,8 +1,0 @@
-20:48:57.624 Unable to add directory /Users/mark.fulton/IdeaProjects/background-audio-player/specs to file watcher: lstat /Users/mark.fulton/IdeaProjects/background-audio-player/specs: no such file or directory
-20:48:57.624 Initializing concepts cache with 0 concepts
-20:48:57.624 Initializing specs cache with 0 specs
-20:48:57.624 Initializing steps cache with 0 steps
-20:48:57.624 Gauge daemon initialized and listening on port: 56614
-20:48:58.615 Api Request Received: messageType:GetLanguagePluginLibPathRequest messageId:5 libPathRequest:<language:"java" > 
-20:48:58.618 Sending API response: messageType:ErrorResponse messageId:2 error:<error:"Plugin 'java' not installed on following locations : [/Users/mark.fulton/.gauge/plugins]" > 
-20:48:58.624 Unable to send analytics data, timed out
