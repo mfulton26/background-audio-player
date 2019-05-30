@@ -1,0 +1,36 @@
+{
+  "name": "Background Audio Player",
+  "version": "0.1",
+  "description": "Play audio URLs in the background with global keyboard shortcut controls.",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js", "main.js"]
+  },
+  "browser_action": {
+    "name": "Click to play/pause the background audio."
+  },
+  "commands": {
+    "play-pause": {
+      "suggested_key": {
+        "default": "Alt+Shift+P",
+        "mac": "Ctrl+Shift+P"
+      },
+      "description": "Play/Pause"
+    },
+    "stop": {
+      "suggested_key": {
+        "default": "Alt+Shift+S",
+        "mac": "Ctrl+Shift+S"
+      },
+      "description": "Stop"
+    }
+  },
+  "icons": {
+    "24": "images/ic_play_arrow_black_24dp_2x.png"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  },
+  "permissions": ["contextMenus", "storage"]
+}

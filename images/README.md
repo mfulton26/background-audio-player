@@ -1,0 +1,1 @@
+Original images from [Material icons - Material Design](https://material.io/icons/).

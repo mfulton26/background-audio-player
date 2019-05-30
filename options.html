@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Backgroun Adio Player Options</title>
+    <link rel="stylesheet" type="text/css" href="options.css" />
+  </head>
+  <body>
+    <fieldset>
+      <legend>Audio</legend>
+      <label for="audio-url">URL</label>
+      <input id="audio-url" type="url" size="32" />
+      <br />
+      <input id="auto-play" type="checkbox" />
+      <label for="auto-play">Auto-play</label>
+      <br />
+      <label for="volume">Volume</label>
+      <input id="volume" type="range" value="1" min="0" max="1" step="any" />
+    </fieldset>
+    <fieldset>
+      <legend>Click mode</legend>
+      <input id="pause-mode" type="radio" name="click-mode" checked />
+      <label for="pause-mode">Play/Pause</label>
+      <input id="stop-mode" type="radio" name="click-mode" />
+      <label for="stop-mode">Play/Stop</label>
+    </fieldset>
+    <br />
+    <button id="keyboard-shortcuts" tabindex="0">Keyboard shortcuts</button>
+    <button id="save">Save</button>
+    <script src="options.js"></script>
+  </body>
+</html>
